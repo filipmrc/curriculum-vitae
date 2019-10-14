@@ -1,0 +1,164 @@
+\documentclass{tccv}
+\usepackage[english,croatian]{babel}
+\usepackage[utf8]{inputenc}
+
+
+\begin{document}
+
+%\part{Filip Marić}
+\part
+    [hr.linkedin.com/in/filipmrc]
+    %{Frouedova 7\newline 10000, Zagreb, Croatia}
+    {+385 98 904 9565}
+    {filipmaric@protonmail.com}
+    {15.04.1993}
+ 
+    
+\section{Work experience}
+
+
+\begin{eventlist}
+
+\item{November 2018 - present}
+     {STARS lab (Toronto), LAMoR (Zagreb)}
+     {Junior researcher}
+     
+Researching motion planning in robotics, facilitating collaboration between the above laboratories.
+  
+\item{July 2016 -- August 2016}    
+     {INETEC - Institute for Nuclear Technology}
+     {Research and development intern}
+     
+Designing framework for computer vision algorithms used in robot manipulator localization.
+Developing in C\# with OpenCV libraries and utilizing structural properties of nuclear plant.
+
+%\item{September 2014 -- January 2015}
+%     {Human Oriented Technologies Laboratory} 
+%     {Software tester}
+%       
+%Testing video facial expression analysis software.
+%Providing feedback and design suggestions.
+\end{eventlist}
+
+\section{Projects and Publications}
+
+\begin{yearlist2}  
+%\item{}
+%     {{\small Fast Manipulability Maximization using Continuous-Time Trajectory Optimization}}
+%     {{\small Accepted ICRA 2018 paper on kinematic self-calibration of an RGBD camera using contact.}}
+  
+\item{}
+     {{\small Towards Automatic Self-Calibration of Mobile Manipulator Kinematics and Sensor Extrinsics Using Contact Information}}
+     {{\small Accepted ICRA 2018 paper on kinematic self-calibration of an RGBD camera using contact.}}
+
+\item{}
+     {Thing mobile manipulator}
+     {{\small Developing motion planning and control for the \href{https://youtu.be/l_MliB_B_UQ}{Thing} mobile manipulator at University of Toronto Institute for Aerospace Studies.}}
+     
+\item{}
+     {Kinematic Educational Robot (KER)}
+     {{\small \href{https://github.com/filipmrc/ker}{Open source}, low-cost quadruped platform with ROS and simulation capabilities.}}
+
+\item{}
+     {Robot arm teleoperation via RGBD sensor palm tracking}
+     { {\small \href{http://ieeexplore.ieee.org/document/7522303/}{Paper} presented at MIPRO 2016. Work is indexed in IEEE Xplore and results featured \href{https://youtu.be/exf7TUviuSg}{online}.}}
+
+%\item{2015}
+ %    {National Exporters Convention}
+  %   {Programming robotic arm for central role in award ceremony.
+   %    \href{http://goo.gl/U6IJrW}{Giving out trophies} to industry leaders with the robotic arm semi-autonomously.}
+\end{yearlist2}
+
+\section{Awards and Achievements}
+\begin{yearlist}
+\item[University of Toronto]{2018}
+     {UofT Joint Educational Placement}
+     {{\small Fully funded international PhD collaboration with the \href{https://lamor.fer.hr/}{LAMoR} laboratory at the UZagreb.}}
+     
+\item[University of Zagreb]{2017}
+     {Dr. Jasna Šimunić-Hrvoić scholarship}
+     {{\small Full financing for working on my Master's thesis at the University of Toronto.}}
+
+\item[University of Zagreb]{2016}
+     {Rectors award}
+     {{\small Awarded for best student scientific \href{https://www.dropbox.com/s/k66438qy0xz13c4/rektorova.pdf?dl=0}{thesis}.}}
+
+%\item[eStudent]{2016}
+%     {Elektroboj 2016}
+%     {{\small Secured funding for the KER project, proceeded to win 3rd place in the competition.}}
+     
+\item[European Comission]{2015}
+     {Erasmus scholarship}
+     {\begin{small}
+     Exchange scholarship awarded based on academic results.
+     \end{small}}
+\end{yearlist}
+
+% \part
+%     [hr.linkedin.com/in/filipmrc]
+%     %{Frouedova 7\newline 10000, Zagreb, Croatia}
+%     {+385 98 904 9565}
+%     {filipmaric@protonmail.com}
+%     {15.04.1993}
+
+\section{Education}
+%%\small{Faculty Of Electrical Engineering and Computing (FER)}
+\begin{yearlist}
+\item[University of Toronto]{now}
+     {Ph.D candidate}
+     {{\small Researching high dimensional trajectory planning in stochastic environments at Space and Terrestrial Autonoums Robotic Systems Lab.}}
+\item[University of Zagreb]{2017}
+     {M.Sc Electrical Engineering and IT}
+     {{\small Attended Faculty of Electrical Engineering and Computing, focus on robotics.}}
+\item[University of Toronto]{2017}
+     {Graduate exchange}
+     {{\small Institute for Aerospace Studies}}
+\item[Aalborg Universitat]{2016}
+     {Graduate exchange}
+     {{\small Department of Electronic Systems}}
+
+\end{yearlist}
+\section{Software skills}
+\begin{factlist}
+
+\item{Experienced}
+     {MATLAB, ROS, Simulink, Gazebo}
+
+\item{Intermediate}
+     {C++,  Git, Blender, Step 7, Linux}
+
+\item{Basic}
+     {Python, PCL, AutoCAD, ZMQ}
+
+\end{factlist}
+
+\section{Engineering skills}
+\begin{factlist}
+\item{Experienced}
+	 {Robotics, Control, Motion Planning}
+	 
+\item{Intermediate}
+     {Estimation theory, Optimization}
+    
+\item{Basic}
+     {Microcontrollers, Machine learning} 
+     
+\end{factlist}
+
+\section{Language skills}
+
+\begin{factlist}
+\item{English}{Full professional proficiency \\(TOEFL: 109/120)}
+\item{French}{Elementary proficiency}
+\item{Croatian}{Native speaker}
+\end{factlist}
+
+\section{Other experience}
+\begin{factlist}
+\item{ }{Leading 3 - 5 person (international) teams in multiple projects}
+\item{ }{Presenting projects at international conventions, for reporters, investors}
+\item{ }{Presenting results to audiences in both English and Croatian}
+\end{factlist}
+
+\end{document}
+ 
