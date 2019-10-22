@@ -1,7 +1,8 @@
 \documentclass{tccv}
 \usepackage[english,croatian]{babel}
 \usepackage[utf8]{inputenc}
-
+\usepackage{lmodern}
+% TODO fix think of new better design, maybe change font
 
 \begin{document}
 
@@ -9,66 +10,65 @@
 \part
     [hr.linkedin.com/in/filipmrc]
     %{Frouedova 7\newline 10000, Zagreb, Croatia}
-    {+385 98 904 9565}
+    {+385 98 904 9565}   
     {filipmaric@protonmail.com}
-    {15.04.1993}
+    {15.04.1993, Zagreb, Croatia} 
  
-    
-\section{Work experience}
+       
+\section{Work experience} 
  
-
 \begin{eventlist}
-
-\item{November 2018 - present}
-     {STARS lab (Toronto), LAMoR (Zagreb)}
-     {Junior researcher}
-     
-Researching motion planning in robotics, facilitating collaboration between the above laboratories.
   
-\item{July 2016 -- August 2016}    
-     {INETEC - Institute for Nuclear Technology}
-     {Research and development intern}
+\item{Jan. 2018 - Present} 
+     {\textit{Graduate researcher @} \textbf{\href{http://www.starslab.ca/}{STARS} Laboratory}}
+     %{}   
      
-Designing framework for computer vision algorithms used in robot manipulator localization.
-Developing in C\# with OpenCV libraries and utilizing structural properties of nuclear plant.
+     Researching applications of tools from computational algebraic geometry for manipulator kinematics, control, synthesis and motion planning. 
 
+\item{Oct. 2018 - Apr. 2019} 
+     {\textit{Subject matter expert @} \textbf{Coursera}}  
+     %{Subject matter expert}
+
+     Developing assignments and materials for the Coursera \href{https://www.coursera.org/learn/state-estimation-localization-self-driving-cars}{state estimation specialization}.
+
+\item{Jul. 2016 -- Aug. 2016}    
+     {\textit{R\&D intern @} \textbf{Institute for Nuclear Technology}}
+     %{Research and development intern}
+     
+Designing framework for computer vision algorithms used in robot manipulator localization. Developing in C\# with OpenCV libraries and utilizing structural properties of nuclear plant.
+ 
 %\item{September 2014 -- January 2015}
 %     {Human Oriented Technologies Laboratory} 
-%     {Software tester}
+%     {Software tester}   
 %       
 %Testing video facial expression analysis software.
 %Providing feedback and design suggestions.
 \end{eventlist}
 
-\section{Projects and Publications}
-
-\begin{yearlist2}  
-%\item{}
-%     {{\small Fast Manipulability Maximization using Continuous-Time Trajectory Optimization}}
-%     {{\small Accepted ICRA 2018 paper on kinematic self-calibration of an RGBD camera using contact.}}
-  
-\item{}
-     {{\small Towards Automatic Self-Calibration of Mobile Manipulator Kinematics and Sensor Extrinsics Using Contact Information}}
-     {{\small Accepted ICRA 2018 paper on kinematic self-calibration of an RGBD camera using contact.}}
+\section{Publications}
+\begin{yearlist2}
+\item{}   
+     {{\small \href{https://arxiv.org/abs/1909.09318}{arxiv.org/abs/1909.09318} \textit{@} ICRA 2020}}
+     {{\small Inverse Kinematics for Serial Kinematic Chains via Sum of Squares Optimization}}
 
 \item{}
-     {Thing mobile manipulator}
-     {{\small Developing motion planning and control for the \href{https://youtu.be/l_MliB_B_UQ}{Thing} mobile manipulator at University of Toronto Institute for Aerospace Studies.}}
+     {{\small \href{https://arxiv.org/abs/1908.02963}{arxiv.org/abs/1908.02963} \textit{@} IROS 2019}}
+     {{\small Fast Manipulability Maximization Using Continuous-Time Trajectory Optimization}} 
      
 \item{}
-     {Kinematic Educational Robot (KER)}
-     {{\small \href{https://github.com/filipmrc/ker}{Open source}, low-cost quadruped platform with ROS and simulation capabilities.}}
+     {{\small \href{https://arxiv.org/abs/1803.06406}{arxiv.org/abs/1803.06406} \textit{@} ICRA 2018}}
+     {{\small Self-Calibration of Mobile Manipulator Kinematic and Sensor Extrinsic Parameters Through Contact-Based Interaction}}
 
-\item{}
-     {Robot arm teleoperation via RGBD sensor palm tracking}
-     { {\small \href{http://ieeexplore.ieee.org/document/7522303/}{Paper} presented at MIPRO 2016. Work is indexed in IEEE Xplore and results featured \href{https://youtu.be/exf7TUviuSg}{online}.}}
-
+     \item{}
+     {{\small \href{https://ieeexplore.ieee.org/document/7522303}{10.1109/MIPRO.2016.7522303} \textit{@} MIPRO 2016}}
+     { Robot arm teleoperation via RGBD sensor palm tracking - \href{https://youtu.be/exf7TUviuSg}{video}}
 %\item{2015}
  %    {National Exporters Convention}
   %   {Programming robotic arm for central role in award ceremony.
    %    \href{http://goo.gl/U6IJrW}{Giving out trophies} to industry leaders with the robotic arm semi-autonomously.}
 \end{yearlist2}
-
+\vspace*{-0.5cm}
+%
 \section{Awards and Achievements}
 \begin{yearlist}
 \item[University of Toronto]{2018}
@@ -94,30 +94,40 @@ Developing in C\# with OpenCV libraries and utilizing structural properties of n
      \end{small}}
 \end{yearlist}
 
-% \part
-%     [hr.linkedin.com/in/filipmrc]
-%     %{Frouedova 7\newline 10000, Zagreb, Croatia}
-%     {+385 98 904 9565}
-%     {filipmaric@protonmail.com}
-%     {15.04.1993}
-
 \section{Education}
 %%\small{Faculty Of Electrical Engineering and Computing (FER)}
 \begin{yearlist}
 \item[University of Toronto]{now}
-     {Ph.D candidate}
-     {{\small Researching high dimensional trajectory planning in stochastic environments at Space and Terrestrial Autonoums Robotic Systems Lab.}}
+     {Ph.D candidate, Robotics}
+     {{\small Space and Terrestrial Autonomous Robotics Systems (STARS) Laboratory }}
 \item[University of Zagreb]{2017}
-     {M.Sc Electrical Engineering and IT}
-     {{\small Attended Faculty of Electrical Engineering and Computing, focus on robotics.}}
-\item[University of Toronto]{2017}
+     {M.Sc, Electrical Engineering and IT}
+     {{\small Laboratory for Autonomous Systems and Mobile Robotics (LAMoR)}}
+\item[University of Toronto]{2017} 
      {Graduate exchange}
      {{\small Institute for Aerospace Studies}}
 \item[Aalborg Universitat]{2016}
      {Graduate exchange}
      {{\small Department of Electronic Systems}}
-
 \end{yearlist}
+\vspace*{-0.5cm}
+%
+\section{Projects \& Other}
+\begin{yearlist2}
+\item{}
+     {\small Thing mobile manipulator}
+     {{\small Developing motion planning and control for the \href{https://youtu.be/l_MliB_B_UQ}{Thing} mobile manipulator at STARS Laboratory.}}
+     
+\item{}
+     {\small Haptic feedback for the DaVinci surgical robot} 
+     {{\small Developing haptic feedback for minimally invasive surgery with DaVinci surgical robot and Geomagic touch haptic controller.}}
+
+     \item{}
+     {\small Kinematic Educational Robot (KER)}
+     {{\small \href{https://github.com/filipmrc/ker}{Open source}, low-cost quadruped platform with ROS and simulation capabilities.}}
+\end{yearlist2}
+\vspace*{-0.5cm}
+%
 \section{Software skills}
 \begin{factlist}
 
@@ -125,13 +135,13 @@ Developing in C\# with OpenCV libraries and utilizing structural properties of n
      {MATLAB, ROS, Simulink, Gazebo}
 
 \item{Intermediate}
-     {C++,  Git, Blender, Step 7, Linux}
+     {C++, Python, Git, Blender, Linux} %step 7
 
 \item{Basic}
-     {Python, PCL, AutoCAD, ZMQ}
-
+     {PCL, AutoCAD, ZMQ, emacs}
 \end{factlist}
-
+\vspace*{-0.5cm} 
+%
 \section{Engineering skills}
 \begin{factlist}
 \item{Experienced}
@@ -142,25 +152,24 @@ Developing in C\# with OpenCV libraries and utilizing structural properties of n
     
 \item{Basic}
      {Microcontrollers, Machine learning} 
-     
 \end{factlist}
-
+\vspace*{-0.5cm}
+%
 \section{Language skills}
-
 \begin{factlist}
-\item{English}{Full professional proficiency \\(TOEFL: 109/120)}
-\item{French}{Elementary proficiency}
+\item{English}{Full professional proficiency \\ (TOEFL: 109/120)}
+\item{French}{Elementary proficiency} 
 \item{Croatian}{Native speaker}
 \end{factlist}
-
+\vspace*{-0.5cm}
+%
 \section{Other experience}
 \begin{factlist}
-\item{ }{Leading 3 - 5 person (international) teams in multiple projects}
+\item{ }{Leading and working in large and small international teams}
 \item{ }{Presenting projects at international conventions, for reporters, investors}
-\item{ }{Presenting results to audiences in both English and Croatian}
 \end{factlist}
 
-\end{document}
+\end{document} 
  
 %%% Local Variables:
 %%% mode: latex

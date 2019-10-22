@@ -30,7 +30,7 @@
 \LoadClass[10pt]{scrartcl}
 
 \setcounter{secnumdepth}{-1}
-\RequirePackage[hmargin=1.25cm,vmargin=1.25cm,twocolumn,columnsep=1.25cm]{geometry}
+\RequirePackage[hmargin=1.25cm,vmargin=1cm,twocolumn,columnsep=1.25cm]{geometry}
 \RequirePackage{bookman,etoolbox,hyperref,marvosym,needspace,tabularx,xcolor}
 
 % Capitalize words of at least a minimum length (default to 3 chars).
@@ -102,16 +102,17 @@
 
 \renewcommand\part[5][]{
  \twocolumn[
-  \begin{minipage}{0.65\textwidth}
-    {\usekomafont{part} Filip Mari\'c}
+  \begin{minipage}{0.45\textwidth} %0.65
+    {\usekomafont{part}Filip Mari\'c}
+    \begin{flushright}
+    {\small  \textit{``Understanding is but the sum of misunderstandings.''}\\
+      \textit{-Haruki Murakami}}
+    \end{flushright}
   \end{minipage}\bigskip
+  \hspace{0.2\textwidth}
   \begin{minipage}{0.35\textwidth}
-    % \newdimen\boxwidth%
-    % \boxwidth=\dimexpr\columnwidth%-2\fboxsep\relax%
-    % \colorbox[HTML]{FFFFFF}{%
     \raggedright{\begin{tabularx}{\linewidth}{c|X} 
       \Gentsroom & {#4}\smallskip\\
-      % \Writinghand & {#2}\smallskip\\
       \Telefon & {#2}\smallskip\\
       \Letter & \href{mailto:#3}{#3}\smallskip\\
       \Lightning & \href{http://#1}{#1}
@@ -150,18 +151,6 @@
 % \personal[optional: web site without scheme (no http:// prefix)]
 %          {address}{phone number}{email}
 % ]|
-\newcommand\personal[5][]{%
-    \needspace{0.5\textheight}%
-    \newdimen\boxwidth%
-    \boxwidth=\dimexpr\linewidth-2\fboxsep\relax%
-    \colorbox[HTML]{FFFFFF}{%
-    \begin{tabularx}{\boxwidth}{c|X}
-    \Gentsroom & {#4}\smallskip\\
-    %\Writinghand & {#2}\smallskip\\
-    \Telefon     & {#2}\smallskip\\
-    \Letter      & \href{mailto:#3}{#3}
-    \ifstrempty{#1}{}{\smallskip\\ \Lightning & \href{http://#1}{#1}}
-    \end{tabularx}}}
 
 % Every \item can be followed by one or more paragraphs
 % of description:
@@ -176,9 +165,9 @@
     \renewcommand\item[3]{%
 	\inskip%
 	{\raggedleft\sc ##1\\[1pt]}
-	{\large ##2}\\[2pt]
-	{\large \it ##3}
-	\smallskip
+	{ ##2}\\[2pt]
+	%{\it ##3}
+	%\smallskip
 	\renewcommand\inskip{\bigskip}}}
 
 % Use only \item inside this environment: no other macros
