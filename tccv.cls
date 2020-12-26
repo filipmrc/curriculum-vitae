@@ -104,10 +104,10 @@
  \twocolumn[
   \begin{minipage}{0.45\textwidth} %0.65
     {\usekomafont{part}Filip Mari\'c}
-    \begin{flushright}
-    {\small  \textit{``Understanding is but the sum of misunderstandings.''}\\
-      \textit{-Haruki Murakami}}
-    \end{flushright}
+    % \begin{flushright}
+    % {\small  \textit{``Understanding is but the sum of misunderstandings.''}\\
+    %   \textit{-Haruki Murakami}}
+    % \end{flushright}
   \end{minipage}\bigskip
   \hspace{0.2\textwidth}
   \begin{minipage}{0.35\textwidth}

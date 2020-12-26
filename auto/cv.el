@@ -15,6 +15,7 @@
     "tccv"
     "tccv10"
     "babel"
-    "inputenc"))
+    "inputenc"
+    "lmodern"))
  :latex)
 
